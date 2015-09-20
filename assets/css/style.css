@@ -1,0 +1,38 @@
+@charset 'utf-8';
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#main {
+	padding: 0 35px;
+}
+#main p {
+	margin: 0;
+}
+
+#location, #temperature-container p {
+	font-size: 2.8125rem;
+}
+
+#date {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+#icon {
+	float: left;
+	padding: 15px;
+}
+
+#icon i {
+	font-size: 6rem;
+}
+
+#temperature-container {
+	float: right;
+}
+
+#low-temperature {
+	font-weight: 300;
+}
